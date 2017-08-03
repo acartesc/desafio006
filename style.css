@@ -1,0 +1,105 @@
+html{
+	box-sizing: border-box;
+}
+
+.header{
+	text-align: center;
+}
+
+.image{
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+
+body{
+	font-family: Arial;
+	font-size: 2vh;
+	color: gray;
+}
+
+h1{
+	color: black;
+}
+
+h2{
+	color: red;
+}
+
+li{
+	;
+}
+
+.bold{
+	font-weight: bold;
+	color: black;
+
+	margin-top: 0.5vw;
+}
+
+.education-row{
+	margin-bottom: 5px;
+	height: 12vh;
+}
+
+.education-left{
+	width: 5%;
+	float: left;
+	margin-top: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.education-right{
+	background-color: Gainsboro;
+	width:95%;
+	float: left;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+
+.experience-left{
+
+}
+
+
+.experience-right{
+
+}
+
+.row{
+	clear: both;
+}
+.col-md-1, .col-md-2, .col-sm-1, .col-sm-2{
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	margin: 0px;
+	clear: none;
+}
+
+@media(min-width: 481px){
+
+	.col-md-1{
+		width: 60%
+	}
+
+	.col-md-2{
+		width: 40%
+	}
+
+}
+
+@media(max-width: 480px){
+
+	.col-ms-1{
+		width: 60%
+	}
+
+	.col-ms-2{
+		width: 40%
+	}
+}
